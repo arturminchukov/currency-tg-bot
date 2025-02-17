@@ -1,0 +1,31 @@
+{
+  "name": "currency-tg-bot",
+  "version": "1.0.0",
+  "description": "It is a telegram bot to check the currency courses",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturminchukov/currency-tg-bot.git"
+  },
+  "author": "arturminchukov",
+  "license": "ISC",
+  "imports": {
+    "#repositories/*": "./src/repositories/*.js"
+  },
+  "bugs": {
+    "url": "https://github.com/arturminchukov/currency-tg-bot/issues"
+  },
+  "homepage": "https://github.com/arturminchukov/currency-tg-bot#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  }
+}
