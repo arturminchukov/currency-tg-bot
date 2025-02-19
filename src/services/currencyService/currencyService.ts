@@ -1,4 +1,4 @@
-import { currencyRepository, ICurrencyRepository  } from "@repositories";
+import { exchangeRatesCurrencyRepository, ICurrencyRepository } from "@repositories";
 
 class CurrencyService {
     private currencyRepository: ICurrencyRepository;
@@ -12,4 +12,4 @@ class CurrencyService {
     }
 }
 
-export const currencyService = new CurrencyService(currencyRepository);
+export const currencyService = new CurrencyService(exchangeRatesCurrencyRepository);
